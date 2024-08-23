@@ -1,0 +1,15 @@
+GET http://localhost:8080/usuario
+
+###
+
+GET http://localhost:8080/usuario/3
+
+###
+
+
+
+
+
+GET http://localhost:8080/cliente
+
+###
