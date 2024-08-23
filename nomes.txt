@@ -1,4 +1,3 @@
-Meninos	Meninas
 "Miguel",
 "Davi ",
 "Arthur",
