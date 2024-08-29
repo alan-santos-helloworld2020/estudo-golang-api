@@ -7,9 +7,22 @@ GET http://localhost:8080/usuario/3
 ###
 
 
-
-
-
 GET http://localhost:8080/cliente
+
+###
+
+GET http://localhost:8080/cliente/2
+
+###
+
+POST http://localhost:8080/cliente
+Content-Type: application/json
+
+{
+    "nome":"claudio",
+    "email":"claudio@gmail.com",
+    "telefone":"21000000000",
+    "cep":"00000000"
+}
 
 ###

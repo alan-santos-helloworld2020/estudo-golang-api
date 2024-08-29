@@ -12,7 +12,7 @@ type UserUri struct {
 }
 
 func GetAlUsers (ctx *gin.Context) {
-
+	
 	users := database.GetUsers()
 	var _ = ctx.BindJSON(&users)
 	ctx.JSON(200, users)
